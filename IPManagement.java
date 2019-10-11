@@ -17,7 +17,7 @@ public class IPManagement {
 		for(String s : addresses) {
 			IPNode node = tree.search(tree.root, s);
 			if(node != null) {
-				System.out.println("CIDR Block in conflict");
+				System.out.println("CIDR Block in conflict, Block not added");
 				return;
 			}
 		}
